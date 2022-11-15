@@ -1,5 +1,5 @@
 {
-  "name": "[libraryName]",
+  "name": "aliases-from-tsconfig",
   "version": "0.0.0",
   "description": "",
   "cdn": "dist/index.umd.js",
@@ -49,15 +49,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/[repositoryOwner]/[repositoryName].git"
+    "url": "git+https://github.com/VitorLuizC/aliases-from-tsconfig.git"
   },
   "keywords": [],
   "author": {
-    "name": "[authorFullName]"
+    "name": "Vitor Luiz Cavalcanti"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/[repositoryOwner]/[repositoryName]/issues"
+    "url": "https://github.com/VitorLuizC/aliases-from-tsconfig/issues"
   },
-  "homepage": "https://github.com/[repositoryOwner]/[repositoryName]#readme"
+  "homepage": "https://github.com/VitorLuizC/aliases-from-tsconfig#readme"
 }

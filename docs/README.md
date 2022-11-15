@@ -1,6 +1,6 @@
-[libraryNameWithSpacesAndUpperCases]
+Aliases from `tsconfig.json`
 
-# [libraryNameWithSpacesAndUpperCases]
+# Aliases from `tsconfig.json`
 
 ## Table of contents
 
