@@ -1,6 +1,6 @@
 {
   "name": "aliases-from-tsconfig",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reads a jsconfig/tsconfig.json baseUrl and paths and provides a methods to replace its aliases in your files paths.",
   "main": "dist/index.js",
   "types": "types/index.d.ts",

@@ -38,8 +38,6 @@ function processFilePath(path) {
 ```
 
 
-```js
-
 ## Documentation
 
 [Documentation generated from source files by Typedoc](./docs/README.md).
