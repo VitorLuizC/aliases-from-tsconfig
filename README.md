@@ -3,7 +3,7 @@
 [![Continuous Integrations](https://github.com/VitorLuizC/aliases-from-tsconfig/actions/workflows/continuous-integrations.yaml/badge.svg?branch=main)](https://github.com/VitorLuizC/aliases-from-tsconfig/actions/workflows/continuous-integrations.yaml)
 [![License](https://badgen.net/github/license/VitorLuizC/aliases-from-tsconfig)](./LICENSE)
 
-Reads a jsconfig/tsconfig.json baseUrl and paths and provides a methods to replace its aliases in your files paths.
+Reads a jsconfig/tsconfig.json baseUrl and paths and provides a method to replace its aliases in your files paths.
 
 ## Installation
 
@@ -18,7 +18,7 @@ yarn add aliases-from-tsconfig
 
 ## Usage
 
-Create an `AliasesFromTSConfig` instance with the path to your jsconfig/tsconfig.json, use its methods to check if file's path has an alias or to apply the alias.
+Create an `AliasesFromTSConfig` instance with the path to your jsconfig/tsconfig.json, and use its methods to check if the file's path has an alias or to apply the alias.
 
 ```js
 import AliasesFromTSConfig from 'aliases-from-tsconfig';
@@ -36,7 +36,6 @@ function processFilePath(path) {
   return aliases.apply(path);
 }
 ```
-
 
 ## Documentation
 
