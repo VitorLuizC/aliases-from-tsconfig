@@ -47,6 +47,7 @@ const options = {
       format: 'esm',
     }),
   ],
+  external: ['node:fs', 'node:path'],
   plugins: [
     typescript2({
       clean: true,

@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:12](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/b22a2d7/src/AliasesFromTSConfig.ts#L12)
+[AliasesFromTSConfig.ts:12](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/aeed6a7/src/AliasesFromTSConfig.ts#L12)
 
 ## Properties
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:7](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/b22a2d7/src/AliasesFromTSConfig.ts#L7)
+[AliasesFromTSConfig.ts:7](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/aeed6a7/src/AliasesFromTSConfig.ts#L7)
 
 ___
 
@@ -52,7 +52,7 @@ ___
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:5](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/b22a2d7/src/AliasesFromTSConfig.ts#L5)
+[AliasesFromTSConfig.ts:5](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/aeed6a7/src/AliasesFromTSConfig.ts#L5)
 
 ## Methods
 
@@ -74,7 +74,7 @@ Replaces the alias from jsconfig/tsconfig.json with the correct path.
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:39](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/b22a2d7/src/AliasesFromTSConfig.ts#L39)
+[AliasesFromTSConfig.ts:39](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/aeed6a7/src/AliasesFromTSConfig.ts#L39)
 
 ___
 
@@ -96,4 +96,4 @@ Checks if received path contains an alias from jsconfig/tsconfig.json.
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:34](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/b22a2d7/src/AliasesFromTSConfig.ts#L34)
+[AliasesFromTSConfig.ts:34](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/aeed6a7/src/AliasesFromTSConfig.ts#L34)

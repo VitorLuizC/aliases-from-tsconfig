@@ -1,5 +1,5 @@
 /*!
- * aliases-from-tsconfig v0.0.0
+ * aliases-from-tsconfig v0.1.0
  * (c) Vitor Luiz Cavalcanti
  * Released under the MIT License.
  */
