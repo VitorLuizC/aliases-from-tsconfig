@@ -23,7 +23,6 @@
     "@types/eslint": "^8.4.10",
     "@types/jest": "^29.2.3",
     "@types/mock-fs": "^4.13.1",
-    "@types/node": "^16.18.3",
     "@types/prettier": "^2.7.1",
     "@typescript-eslint/eslint-plugin": "^5.43.0",
     "@typescript-eslint/parser": "^5.43.0",
@@ -62,5 +61,8 @@
   "bugs": {
     "url": "https://github.com/VitorLuizC/aliases-from-tsconfig/issues"
   },
-  "homepage": "https://github.com/VitorLuizC/aliases-from-tsconfig#readme"
+  "homepage": "https://github.com/VitorLuizC/aliases-from-tsconfig#readme",
+  "dependencies": {
+    "@types/node": "^16.18.3"
+  }
 }
