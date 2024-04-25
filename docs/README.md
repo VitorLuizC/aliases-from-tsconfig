@@ -59,4 +59,4 @@ It would be something like this object:
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:31](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/c251d3a8f4b1e41f79b9d3560373f44e211576ef/src/AliasesFromTSConfig.ts#L31)
+[AliasesFromTSConfig.ts:31](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L31)
