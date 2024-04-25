@@ -16,7 +16,7 @@ npm install aliases-from-tsconfig --save
 yarn add aliases-from-tsconfig
 ```
 
-## Usage
+## Usage for Custom Implementations
 
 Create an `AliasesFromTSConfig` instance with the path to your jsconfig/tsconfig.json, and use its methods to check if the file's path has an alias or to apply the alias.
 
@@ -35,6 +35,26 @@ function processFilePath(path) {
 
   return aliases.apply(path);
 }
+```
+
+## Usage with Webpack
+
+Create an instance of `AliasesFromTSConfig` using the path to your `tsconfig.json` as argument, and then call the method `getAliasesForWebpack` to get the correct alias configuration for webpack.
+
+```js
+// configuration/webpack.config.mjs
+import AliasesFromTSConfig from 'aliases-from-tsconfig';
+
+
+const aliases = new AliasesFromTSConfig('../jsconfig.json');
+
+export default {
+  resolve: {
+    alias: aliases.getAliasesForWebpack(),
+    // ...
+  },
+  // ...
+};
 ```
 
 ## Documentation

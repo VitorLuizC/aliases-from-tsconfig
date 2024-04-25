@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:46](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L46)
+[AliasesFromTSConfig.ts:46](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L46)
 
 ## Properties
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:38](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L38)
+[AliasesFromTSConfig.ts:38](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L38)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:36](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L36)
+[AliasesFromTSConfig.ts:36](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L36)
 
 ___
 
@@ -69,7 +69,7 @@ ___
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:44](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L44)
+[AliasesFromTSConfig.ts:44](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L44)
 
 ## Methods
 
@@ -91,7 +91,7 @@ Replaces the alias from jsconfig/tsconfig.json with the correct path.
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:79](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L79)
+[AliasesFromTSConfig.ts:79](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L79)
 
 ___
 
@@ -123,7 +123,7 @@ module.exports = {
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:111](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L111)
+[AliasesFromTSConfig.ts:111](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L111)
 
 ___
 
@@ -145,7 +145,7 @@ Checks if received path contains an alias from jsconfig/tsconfig.json.
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:74](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L74)
+[AliasesFromTSConfig.ts:74](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L74)
 
 ___
 
@@ -167,4 +167,4 @@ Resolves received path joining tsconfigPath's dirname and the baseUrl.
 
 #### Defined in
 
-[AliasesFromTSConfig.ts:69](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/58c10c2dee71352c15e80800a4609b6b967f7dee/src/AliasesFromTSConfig.ts#L69)
+[AliasesFromTSConfig.ts:69](https://github.com/VitorLuizC/aliases-from-tsconfig/blob/148683b91c7eb2b354f0a9d4ca0fc9b9348c2b69/src/AliasesFromTSConfig.ts#L69)
