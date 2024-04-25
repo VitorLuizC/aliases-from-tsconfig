@@ -1,3 +1,5 @@
+import { join } from 'node:path';
+import { cwd } from 'node:process';
 import mockFileSystem, { restore } from 'mock-fs';
 import AliasesFromTSConfig from './AliasesFromTSConfig.js';
 
@@ -11,7 +13,8 @@ describe('unit tests | AliasesFromTSConfig', () => {
             "baseUrl": "./",
             "paths": {
               "@": ["./src/index.js"],
-              "@/*": ["./src/*"]
+              "@/*": ["./src/*"],
+              "@ui/*": ["./src/components/ui/*"]
             }
           }
         }
@@ -27,8 +30,11 @@ describe('unit tests | AliasesFromTSConfig', () => {
 
       expect(aliases.apply('../main.js')).toBe('../main.js');
       expect(aliases.apply('@vuejs/core')).toBe('@vuejs/core');
-      expect(aliases.apply('@')).toBe('src/index.js');
-      expect(aliases.apply('@/ui/Icon.js')).toBe('src/ui/Icon.js');
+      expect(aliases.apply('@')).toBe(join(cwd(), 'src/index.js'));
+      expect(aliases.apply('@/sentry.js')).toBe(join(cwd(), 'src/sentry.js'));
+      expect(aliases.apply('@ui/Icon.js')).toBe(
+        join(cwd(), 'src/components/ui/Icon.js'),
+      );
     });
   });
 
@@ -40,6 +46,17 @@ describe('unit tests | AliasesFromTSConfig', () => {
       expect(aliases.hasAlias('@vuejs/core')).toBe(false);
       expect(aliases.hasAlias('@')).toBe(true);
       expect(aliases.hasAlias('@/ui/Icon.js')).toBe(true);
+    });
+  });
+
+  describe('AliasesFromTSConfig.getAliasesForWebpack', () => {
+    it('gets the aliases for webpack', () => {
+      const aliases = new AliasesFromTSConfig('tsconfig.json');
+
+      expect(aliases.getAliasesForWebpack()).toEqual({
+        '@': join(cwd(), 'src'),
+        '@ui': join(cwd(), 'src/components/ui'),
+      });
     });
   });
 });
